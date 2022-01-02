@@ -1,0 +1,6 @@
+https://renatoalvestorres.net/learning-go/it1-lib-add-first-utility-function.html
+.The typical project layout... link does not work
+.Maybe NewUUID instead of NewUuid?
+.Nao tenho a activity testing no lado esquerdo(?)
+.Nao percebi mto bem o argumento do t *testing.T nos tests
+.No test TestNewUuidWithoutHyphen a variavel deveria ser uuidWithoutHyphen e nao uuidWithHyphen
