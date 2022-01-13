@@ -8,7 +8,7 @@ import (
 
 // NewUUID generates an UUID with the possibility
 // to remove the hyphens
-func NewUUID(withoutHyphen bool) string {
+func (pf *ProgrammingFunctions) NewUUID(withoutHyphen bool) string {
 	uuidWithHyphen := uuid.New()
 
 	if withoutHyphen {
